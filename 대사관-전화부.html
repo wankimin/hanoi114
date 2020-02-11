@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Generator" content="">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>"대사관-전화부"</title> <!--<<< check!!! >>>-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="page1.css"> <!-- == check!!! == -->
+</head>
+
+<!-- ########## BODY ########### -->
+
+<body>
+
+  <div class="header">
+    <h1 style="color: dodgerblue">
+       <!--<<< check!!! >>>-->
+        <img src="icon/ylwp2.png">
+      </a>
+       전화번호부
+      <a href="index.html"> <!--<<< check!!! >>>-->
+        <i class="fas fa-angle-double-left" style="float:right">
+        </i>
+      </a>
+    </h1>
+  </div>
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+
+
+    <a href="대사관-전화부.html" style="float:right">전화번호부</a><!--<<< check!!! >>>-->
+  </div>
+
+
+  <div class="wrap">
+    <div class="sec">
+
+        <!-- ########## address Section ########## -->
+
+        <div class="menu">
+
+          <div class="responsive">
+            <div class="gallery">
+                <img src="주소록/대사관.png" alt="전화번호부"> <!-- == check!!! == -->
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+      </div> <!-- end menu -->
+    </div> <!-- end sec -->
+  </div> <!-- end wrap -->
+
+  <!-- ########## Bottom Navbar ########## -->
+
+  <div class="navbar">
+    <a><img src="icon/ylwpage1.png"></a>
+
+    <a href="index.html" class="active"><!--<<< check!!! >>>-->
+      <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <a href="index.html">
+      <i class="fas fa-home">Home</i>
+    </a>
+
+    <a href="index.html" class="active">
+      문의하기
+    </a>
+  </div>
+
+  <!-- ########## Top Button ########## -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>
